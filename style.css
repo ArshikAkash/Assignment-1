@@ -31,6 +31,7 @@ h1 {
 	margin-left: 3%;
 	margin-right: 3%;
 	padding: 2%;
+	height: auto;
 }
 .half-width img {
 	width: 100%;
@@ -61,4 +62,117 @@ h2 {
 }
 .btn:hover {
 	background-color: rgb(255, 99, 94);
+}
+.about {
+	width: 100%;
+	height: 800px;
+}
+#abt {
+	height: 600px;
+}
+section {
+	height: 400px;
+}
+#main {
+	height: 50px;
+}
+.project {
+	width: 25%;
+	float: left;
+	margin-left: 6%;
+	box-shadow: 10px 10px 40px gray;
+	height: 400px;
+	background-color: white;
+}
+.project img {
+	width: 300px;
+	height: 200px;
+	padding-left: 30px;
+}
+.prj-area {
+	height: 450px;
+	margin-bottom: 100px;
+}
+.work {
+	height: 200px;
+	background-image: url(images/Group1.png);
+	background-size: 70%;
+	background-repeat: no-repeat;
+	margin-left: 27%;
+	margin-right: 10%;
+	margin-top: 15%;
+}
+#inquiry {
+	font-size: 40px;
+	font-family: "bebas neue";
+	color: whitesmoke;
+	margin-left: 10%;
+	margin-bottom: 20%;
+}
+#chat {
+	text-decoration: none;
+	background-image: linear-gradient(45deg, rgb(255, 65, 7), rgb(251, 136, 58));
+	color: whitesmoke;
+	border-radius: 8px;
+	padding: 7px;
+	font-weight: 300;
+	font-family: "roboto";
+	font-size: 20px;
+}
+.site-text {
+	padding: 20px;
+}
+#project-align {
+	text-align: center;
+}
+#project-color {
+	color: rgb(255, 65, 7);
+}
+.social {
+	float: left;
+	width: 5%;
+}
+.social img {
+	margin-left: 620px;
+}
+.stay {
+	text-align: center;
+	height: 200px;
+}
+* {
+	box-sizing: border-box;
+}
+.skill-bar {
+	width: 100%;
+	background-color: rgb(100, 100, 100);
+	border-radius: 5px;
+}
+
+.skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.html {
+	width: 10%;
+	background-color: #3546df;
+	border-radius: 5px;
+}
+.css {
+	width: 5%;
+	background-color: #1cc34e;
+	border-radius: 5px;
+}
+.js {
+	width: 0%;
+	background-color: #ac1cff;
+}
+.my-skill {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+#myskill {
+	text-align: center;
 }
